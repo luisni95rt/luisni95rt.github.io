@@ -3541,7 +3541,7 @@
 
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
-		background: #312450;
+		background: #424242;
 		cursor: default;
 		height: 100vh;
 		left: 0;
@@ -3778,14 +3778,14 @@
 			}
 
 			#sidebar nav a:before {
-				background: #3c2c62;
+				background: #A4A4A4;
 			}
 
 			#sidebar nav a:after {
-				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: linear-gradient(to right, #5e42a6, #b74e91);
+				background-image: -moz-linear-gradient(to right, #FE2E2E, #A4A4A4);
+				background-image: -webkit-linear-gradient(to right, #FE2E2E, #A4A4A4);
+				background-image: -ms-linear-gradient(to right, #FE2E2E, #A4A4A4);
+				background-image: linear-gradient(to right, #FE2E2E, #A4A4A4);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -3874,7 +3874,7 @@
 
 						#sidebar nav a:after {
 							background-image: none;
-							background-color: #b74e91;
+							background-color: #FE2E2E;
 						}
 
 		}
@@ -3888,24 +3888,29 @@
 		}
 
 /* Intro */
+	.rightFull{width:100%!important;}
+
 	.miiverse 
 	{
-		background-image: url("images/miiverse-logo.jpg")!important;
+		background-size: 100% 100%!important; background-image: url("images/miiverse-logo.jpg") !important;
+		background-repeat: no-repeat!important; 
 	}
 	.star
 	{
-		background-image: url("images/star.jpg")!important;
+		background-size: 100% 100%!important; background-image: url("images/star.jpg")!important; background-repeat: no-repeat!important; 
 	}.pokeball 
 	{
-		background-image: url("images/pokeball.jpg")!important;
+		background-size: 100% 100%!important; background-image: url("images/pokeball.jpg")!important; background-repeat: no-repeat!important; 
 	}.seta 
 	{
-		background-image: url("images/seta.jpg")!important;
-	}.friend
+		background-size: 100% 100%!important; background-image: url("images/seta.jpg")!important; background-repeat: no-repeat!important; 
+	}.ds
 	{
-		background-image: url("images/friend.jpg")!important;
+		background-size: 95% 95%!important; background-image: url("images/ds.jpg")!important; background-repeat: no-repeat!important; 
+	}.flower
+	{
+		background-size: 100% 100%!important; background-image: url("images/flower.png")!important; background-repeat: no-repeat!important; 
 	}
-
 	#intro {
 		background-attachment: fixed;
 		background-image: url("images/630x.jpg");
