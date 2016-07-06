@@ -1721,10 +1721,10 @@
 		}
 
 			h1.major:after {
-				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: linear-gradient(to right, #5e42a6, #b74e91);
+				background-image: -moz-linear-gradient(to right, #ff9999, #ff9999);
+				background-image: -webkit-linear-gradient(to right, #ff9999, #ff9999);
+				background-image: -ms-linear-gradient(to right, #ff9999, #ff9999);
+				background-image: linear-gradient(to right, #ff9999, #ff9999);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -1908,6 +1908,13 @@
 		white-space: nowrap;
 	}
 
+	/* Button */
+
+	input[type="submit"],
+	input[type="reset"],
+	input[type="button"],
+	button,
+
 		input[type="submit"]:after,
 		input[type="reset"]:after,
 		input[type="button"]:after,
@@ -1976,7 +1983,7 @@
 		button.special,
 		.button.special {
 			background-color: #ffffff;
-			color: #312450 !important;
+			color: #ff9999 !important;
 		}
 
 			input[type="submit"].special:after,
@@ -2406,7 +2413,7 @@
 		}
 
 	select option {
-		background-color: #312450;
+		background-color: #ff9999;
 		color: #ffffff;
 	}
 
@@ -2482,7 +2489,7 @@
 		input[type="radio"]:checked + label:before {
 			background: #ffffff;
 			border-color: #ffffff;
-			color: #b74e91;
+			color: #ff9999;
 			content: '\f00c';
 		}
 
@@ -2552,7 +2559,7 @@
 			display: block;
 			background: #ffffff;
 			border-radius: 100%;
-			color: #312450;
+			color: #ff9999;
 			text-align: center;
 			line-height: 2.5em;
 			margin: 0 0 1.3em 0;
@@ -2563,27 +2570,27 @@
 			}
 
 				.wrapper.style1 .icon.major:before {
-					color: #5e42a6;
+					color: #ff9999;
 				}
 
 				.wrapper.style1-alt .icon.major:before {
-					color: #493382;
+					color: #ff9999;
 				}
 
 				.wrapper.style2 .icon.major:before {
-					color: #5052b5;
+					color: #ff9999;
 				}
 
 				.wrapper.style2-alt .icon.major:before {
-					color: #3e4094;
+					color: #ff9999;
 				}
 
 				.wrapper.style3 .icon.major:before {
-					color: #b74e91;
+					color: #ff9999;
 				}
 
 				.wrapper.style3-alt .icon.major:before {
-					color: #953d75;
+					color: #ff9999;
 				}
 
 /* Image */
@@ -3038,7 +3045,7 @@
 				-webkit-transition: opacity 1s ease;
 				-ms-transition: opacity 1s ease;
 				transition: opacity 1s ease;
-				background: rgba(49, 36, 80, 0.9);
+				background: ff9999;
 				content: '';
 				display: block;
 				height: 100%;
@@ -3756,7 +3763,7 @@
 			border: 0;
 			color: rgba(255, 255, 255, 0.35);
 			display: block;
-			font-size: 0.6em;
+			font-size: 0.8em;
 			font-weight: bold;
 			letter-spacing: 0.25em;
 			line-height: 1.75;
@@ -3911,6 +3918,10 @@
 	{
 		background-size: 100% 100%!important; background-image: url("images/flower.png")!important; background-repeat: no-repeat!important; 
 	}
+	.lity-iframe .lity-container {
+    width: 60% !important;
+    max-width: 60% !important;
+}
 	#intro {
 		background-attachment: fixed;
 		background-image: url("images/630x.jpg");
@@ -3918,6 +3929,7 @@
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
 	}
+
 
 		#intro p {
 			font-size: 1.25em;
